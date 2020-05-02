@@ -21,17 +21,17 @@ function chetnost(){
     }
 };
 
-function count(num1, num2, mark) {
+function count(x, y, mark) {
     switch (mark) {
       case "*":
-        return num1 * num2;
+        return x * y;
       case "+":
-        return num1 + num2;
+        return x + y;
       case "-":
-        return num1 - num2;
+        return x -y ;
       case "/":
-        if (num2 !== 0) {
-          return num1 / num2;
+        if (y !== 0) {
+          return x / y;
         } else {
           return "не делится на нуль";
         }
